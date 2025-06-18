@@ -3,7 +3,6 @@ Object Detection with YOLOv8 and Gradio
 
 
 
-
 📌 Project Overview
 This project implements real-time object detection using Ultralytics' YOLOv8 models, integrated into a simple Gradio web interface. The goal is to detect and label objects in images using various YOLOv8 model variants, providing users with annotated results and object count summaries. This solution is suitable for tasks such as surveillance, visual inspection, and automated labeling.
 

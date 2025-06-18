@@ -28,6 +28,13 @@ Converted into NumPy format for model processing.
 
 Normalized and resized internally by the YOLOv8 model.
 
+
+
+
+
+
+
+
 🧠 Steps Involved
 1. Model Selection:
 Users can select from multiple pre-trained YOLOv8 models:
@@ -42,8 +49,12 @@ YOLOv8l (Large)
 
 YOLOv8x (Extra Large)
 
+
+
 2. Image Upload:
 Users upload any image via the Gradio interface.
+
+
 
 3. Object Detection:
 YOLOv8 processes the image.
@@ -51,6 +62,8 @@ YOLOv8 processes the image.
 Detected objects are labeled and highlighted using bounding boxes.
 
 Detected classes are counted and displayed in summary.
+
+
 
 4. Visualization:
 The output image contains drawn bounding boxes with labels.
@@ -63,6 +76,11 @@ Each detection results in:
 Annotated Image – Bounding boxes and labels drawn on original input.
 
 Object Count Summary – Text summary listing object types and counts.
+
+
+
+
+
 
 ⚙️ How to Run the Code
 Clone the repository:
@@ -83,6 +101,8 @@ Edit
 python object_detection_app.py
 Replace object_detection_app.py with your actual file name.
 
+
+
 🧩 Dependencies
 Python 3.x
 
@@ -92,10 +112,15 @@ Gradio
 
 NumPy
 
+
+
 📊 Visualizations
 Annotated images with bounding boxes and labels.
 
 Object count displayed alongside the result image.
+
+
+
 
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
